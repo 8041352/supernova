@@ -9,41 +9,41 @@ O sistema é compatível com:
  - Auto Multiple Choice 1.2.1
     - Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
-          sudo add-apt-repository ppa:alexis.bienvenue/amc-stable
-          sudo apt-get update
-          sudo apt-get install auto-multiple-choice
+        sudo add-apt-repository ppa:alexis.bienvenue/amc-stable
+        sudo apt-get update
+        sudo apt-get install auto-multiple-choice
  - Beautiful Soup 3.2.1
   - Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
-         sudo pip install BeautifulSoup
+        sudo pip install BeautifulSoup
   - Caso não tenha o programa pip instalado no servidor, abrir terminal do Linux e digitar:
 
-         sudo apt-get install python-pip
+        sudo apt-get install python-pip
 
  - MatPlotLib 1.3.1
   - Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
-		 sudo apt-get install python-matplotlib
+		sudo apt-get install python-matplotlib
 
  - PDFLatex 3.14 (2012 ou mais novo)
    - Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
-		 sudo add-apt-repository ppa:texlive-backports/ppa		
-		 sudo apt-get update
-		 sudo apt-get install texlive-full
+		sudo add-apt-repository ppa:texlive-backports/ppa		
+		sudo apt-get update
+	    sudo apt-get install texlive-full
 
    - Instalar pacote adjmulticol.sty (Necessário para o AutoMultipleChoice)
 	
     - Copiar pasta adjmulticol para o caminho:
 
-		   /usr/share/texmf-texlive/tex/latex/
+		/usr/share/texmf-texlive/tex/latex/
 	- Para fazer a cópia via terminal, utilize o comando abaixo na raiz do pasta adjmulticol:
 
-		   cp -ra adjmulticol/ usr/share/texmf-texlive/tex/latex/
+		cp -ra adjmulticol/ usr/share/texmf-texlive/tex/latex/
 
   Observação: Caso o sistema operacional do servidor não seja o Ubuntu, o destino da pasta adjmulticol pode ser outro.
 
- Observação: O comando texlive-full instalará o pdflatex com muitos pacotes extras, 	porém  isso não é totalmente necessário e torna o tamanho do download muito grande.
+ Observação: O comando texlive-full instalará o pdflatex com muitos pacotes extras, porém isso não é totalmente necessário e torna o tamanho do download muito grande.
 	
 #### PASSOS PARA INSTALAÇÃO:
 
