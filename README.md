@@ -25,13 +25,13 @@ O sistema é compatível com:
 
         sudo apt-get install python-pip
 
- - MatPlotLib 1.3.1
+- MatPlotLib 1.3.1
     
     Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
         sudo apt-get install python-matplotlib
 
- - PDFLatex 3.14 (2012 ou mais novo)
+- PDFLatex 3.14 (2012 ou mais novo)
     
     Para instalação no Ubuntu 12.04, abrir terminal do Linux e digitar:
 
@@ -39,7 +39,7 @@ O sistema é compatível com:
         sudo apt-get update
         sudo apt-get install texlive-full
 
-   - Instalar pacote adjmulticol.sty (Necessário para o AutoMultipleChoice)
+    Instalar pacote adjmulticol.sty (Necessário para o AutoMultipleChoice)
     
     Copiar pasta adjmulticol para o caminho:
 
